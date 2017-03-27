@@ -25,6 +25,8 @@ categories: setting
 
   iterm2 :
 
+    [Oh-my-zsh](/2016/11/12/Oh-my-zsh/)
+
   dash :
 
   postman :
