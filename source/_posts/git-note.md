@@ -89,3 +89,17 @@ categories: git
   1. 编辑“.gitmodules”文件，将子模块的相关配置节点删除掉
   1. 编辑“ .git/config”文件，将子模块的相关配置节点删除掉
   1. 手动删除子模块残留的目录
+
+1. ### .ssh权限问题
+
+  Permissions 0644 for ‘/home/robin/.ssh/id_rsa’ are too open.
+  It is recommended that your private key files are NOT accessible by others.
+  This private key will be ignored.
+  bad permissions: ignore key: /home/robin/.ssh/id_rsa
+
+  解决方案
+  ```
+  chmod 755 ~/.ssh/
+  chmod 600 ~/.ssh/id_rsa ~/.ssh/id_rsa.pub
+  chmod 644 ~/.ssh/known_hosts
+  ```
