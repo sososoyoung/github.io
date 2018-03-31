@@ -30,14 +30,14 @@ categories: git
 1. ### git remote
 
   ```
-  git remote add shtyboy git@github.com:shtyboy/shtyboy.github.io.git
+  git remote add helloworld git@github.com:helloworld/helloworld.github.io.git
   ```
   上面的命令就会增加URL地址为
 
   ```
-  git@github.com:shtyboy/shtyboy.github.io.git
+  git@github.com:helloworld/helloworld.github.io.git
   ```
-  ，名称为 shtyboy 的远程服务器，以后提交代码的时候只需要使用 shtyboy 别名即可
+  ，名称为 helloworld 的远程服务器，以后提交代码的时候只需要使用 helloworld 别名即可
   查看远程仓库：$ git remote -v
   添加远程仓库：$ git remote add [name] [url]
   删除远程仓库：$ git remote rm [name]
@@ -79,7 +79,7 @@ categories: git
 1. ### 子模块(submodule)相关操作命令
 
   添加子模块：$ git submodule add [url] [path]
-  如：$git submodule add git@github.com:shtyboy/hexo-theme-next.git themes/next
+  如：$git submodule add git@github.com:helloworld/hexo-theme-next.git themes/next
 
   初始化子模块：$ git submodule init —-只在首次检出仓库时运行一次就行
   更新子模块：$ git submodule update —-每次更新或切换分支后都需要运行一下
