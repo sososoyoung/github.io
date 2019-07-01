@@ -6,7 +6,7 @@
 title: 豆腐di青春
 subtitle: Front End Engineer
 description: just do it
-author: shenty
+author: 豆腐di青春
 language: zh-Hans
 timezone:
 avatar: /assets/images/head.jpeg
@@ -75,5 +75,5 @@ search:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:shtyboy/shtyboy.github.io.git
+  repo: git@github.com:sososoyoung/github.io.git
   branch: master
