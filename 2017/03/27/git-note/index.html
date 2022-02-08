@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>git-note | 豆腐di青春</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="git使用笔记 git 一些设置  12345678git config --global alias.br branchgit config --global alias.ci commitgit config --global alias.co checkoutgit config --global alias.st status# 很好看地显示git loggit config --glob">
+<meta property="og:type" content="article">
+<meta property="og:title" content="git-note">
+<meta property="og:url" content="https://sososoyoung.github.io/2017/03/27/git-note/index.html">
+<meta property="og:site_name" content="豆腐di青春">
+<meta property="og:description" content="git使用笔记 git 一些设置  12345678git config --global alias.br branchgit config --global alias.ci commitgit config --global alias.co checkoutgit config --global alias.st status# 很好看地显示git loggit config --glob">
+<meta property="og:locale">
+<meta property="article:published_time" content="2017-03-27T11:23:31.000Z">
+<meta property="article:modified_time" content="2022-02-08T05:27:17.359Z">
+<meta property="article:author" content="豆腐di青春">
+<meta property="article:tag" content="git, note">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="豆腐di青春" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.0.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">豆腐di青春</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Front End Engineer</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Suche"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Suche"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://sososoyoung.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-git-note" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2017/03/27/git-note/" class="article-date">
+  <time class="dt-published" datetime="2017-03-27T11:23:31.000Z" itemprop="datePublished">2017-03-27</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/git/">git</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      git-note
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="git使用笔记"><a href="#git使用笔记" class="headerlink" title="git使用笔记"></a>git使用笔记</h2><ol>
+<li><h3 id="git-一些设置"><a href="#git-一些设置" class="headerlink" title="git 一些设置"></a>git 一些设置</h3>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">git config --global alias.br branch</span><br><span class="line">git config --global alias.ci commit</span><br><span class="line">git config --global alias.co checkout</span><br><span class="line">git config --global alias.st status</span><br><span class="line"># 很好看地显示git log</span><br><span class="line">git config --global alias.lg &quot;log --color --graph --pretty=format:&#x27;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen (%cr) %C(bold blue)&lt;%an&gt;%Creset&#x27; --abbrev-commit --&quot;</span><br><span class="line">git config --global log.date iso</span><br><span class="line"># 设置用户信息</span><br></pre></td></tr></table></figure></li>
+<li><h3 id="用git-config命令查看配置文件"><a href="#用git-config命令查看配置文件" class="headerlink" title="用git config命令查看配置文件"></a>用git config命令查看配置文件</h3></li>
+</ol>
+<p>  命令参数<br>  –list, 简写 -l<br>  格式：git config [–local|–global|–system] -l<br>  查看仓库级的config，git config –-local -l<br>  查看全局级的config，git config -–global -l<br>  查看系统级的config，git config –-system -l<br>  查看当前生效的配置：git config -l，显示最终三个配置文件计算后的配置信息</p>
+<ol>
+<li><h3 id="git-remote"><a href="#git-remote" class="headerlink" title="git remote"></a>git remote</h3></li>
+</ol>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add helloworld git@github.com:helloworld/helloworld.github.io.git</span><br></pre></td></tr></table></figure>
+<p>  上面的命令就会增加URL地址为</p>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git@github.com:helloworld/helloworld.github.io.git</span><br></pre></td></tr></table></figure>
+<p>  ，名称为 helloworld 的远程服务器，以后提交代码的时候只需要使用 helloworld 别名即可<br>  查看远程仓库：$ git remote -v<br>  添加远程仓库：$ git remote add [name] [url]<br>  删除远程仓库：$ git remote rm [name]<br>  修改远程仓库：$ git remote set-url –push [name] [newUrl]<br>  拉取远程仓库：$ git pull [remoteName] [localBranchName]<br>  推送远程仓库：$ git push [remoteName] [localBranchName]</p>
+<p>  *如果想把本地的某个分支test提交到远程仓库，并作为远程仓库的master分支，或者作为另外一个名叫test的分支，如下：<br>  $git push origin test:master &#x2F;&#x2F; 提交本地test分支作为远程的master分支<br>  $git push origin test:test &#x2F;&#x2F; 提交本地test分支作为远程的test分支</p>
+<ol>
+<li><h3 id="分支-branch-操作相关命令"><a href="#分支-branch-操作相关命令" class="headerlink" title="分支(branch)操作相关命令"></a>分支(branch)操作相关命令</h3>  查看本地分支：$ git branch<br>  查看远程分支：$ git branch -r<br>  创建本地分支：$ git branch [name] —-注意新分支创建后不会自动切换为当前分支<br>  切换分支：$ git checkout [name]<br>  创建新分支并立即切换到新分支：$ git checkout -b [name]<br>  删除分支：$ git branch -d [name] —- -d选项只能删除已经参与了合并的分支，对于未有合并的分支是无法删除的。如果想强制删除一个分支，可以使用-D选项<br>  合并分支：$ git merge [name] —-将名称为[name]的分支与当前分支合并<br>  创建远程分支(本地分支push到远程)：$ git push origin [name]<br>  删除远程分支：$ git push origin :heads&#x2F;[name] 或 $ gitpush origin :[name]</li>
+</ol>
+<p>  *创建空的分支：(执行命令之前记得先提交你当前分支的修改，否则会被强制删干净没得后悔)<br>  $git symbolic-ref HEAD refs&#x2F;heads&#x2F;[name]<br>  $rm .git&#x2F;index<br>  $git clean -fdx</p>
+<ol>
+<li><h3 id="版本-tag-操作相关命令"><a href="#版本-tag-操作相关命令" class="headerlink" title="版本(tag)操作相关命令"></a>版本(tag)操作相关命令</h3><p>  查看版本：$ git tag<br>  创建版本：$ git tag [name]<br>  删除版本：$ git tag -d [name]<br>  查看远程版本：$ git tag -r<br>  创建远程版本(本地版本push到远程)：$ git push origin [name]<br>  删除远程版本：$ git push origin :refs&#x2F;tags&#x2F;[name]<br>  合并远程仓库的tag到本地：$ git pull origin –tags<br>  上传本地tag到远程仓库：$ git push origin –tags<br>  创建带注释的tag：$ git tag -a [name] -m ‘yourMessage’</p>
+</li>
+<li><h3 id="子模块-submodule-相关操作命令"><a href="#子模块-submodule-相关操作命令" class="headerlink" title="子模块(submodule)相关操作命令"></a>子模块(submodule)相关操作命令</h3></li>
+</ol>
+<p>  添加子模块：$ git submodule add [url] [path]<br>  如：$git submodule add <a href="mailto:&#103;&#105;&#116;&#64;&#103;&#105;&#x74;&#x68;&#117;&#98;&#46;&#99;&#111;&#109;">&#103;&#105;&#116;&#64;&#103;&#105;&#x74;&#x68;&#117;&#98;&#46;&#99;&#111;&#109;</a>:helloworld&#x2F;hexo-theme-next.git themes&#x2F;next</p>
+<p>  初始化子模块：$ git submodule init —-只在首次检出仓库时运行一次就行<br>  更新子模块：$ git submodule update —-每次更新或切换分支后都需要运行一下</p>
+<p>  删除子模块：（分4步走）</p>
+<ol>
+<li><p>$ git rm –cached [path]</p>
+</li>
+<li><p>编辑“.gitmodules”文件，将子模块的相关配置节点删除掉</p>
+</li>
+<li><p>编辑“ .git&#x2F;config”文件，将子模块的相关配置节点删除掉</p>
+</li>
+<li><p>手动删除子模块残留的目录</p>
+</li>
+<li><h3 id="ssh权限问题"><a href="#ssh权限问题" class="headerlink" title=".ssh权限问题"></a>.ssh权限问题</h3></li>
+</ol>
+<p>  Permissions 0644 for ‘&#x2F;home&#x2F;robin&#x2F;.ssh&#x2F;id_rsa’ are too open.<br>  It is recommended that your private key files are NOT accessible by others.<br>  This private key will be ignored.<br>  bad permissions: ignore key: &#x2F;home&#x2F;robin&#x2F;.ssh&#x2F;id_rsa</p>
+<p>  解决方案<br>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">chmod 755 ~/.ssh/</span><br><span class="line">chmod 600 ~/.ssh/id_rsa ~/.ssh/id_rsa.pub</span><br><span class="line">chmod 644 ~/.ssh/known_hosts</span><br></pre></td></tr></table></figure></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://sososoyoung.github.io/2017/03/27/git-note/" data-id="ckzdooxhu0007fpbd2ix83a6q" data-title="git-note" class="article-share-link">Teilen</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git-note/" rel="tag">git, note</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2017/03/27/mac-setting/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Neuer</strong>
+      <div class="article-nav-title">
+        
+          mac-setting
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2017/02/16/nodemailer/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Älter</strong>
+      <div class="article-nav-title">nodemailer</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Kategorien</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Oh-my-zsh/">Oh my zsh</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/git/">git</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/react/">react</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/setting/">setting</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/share-web/">share, web</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/sublime/">sublime</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Oh-my-zsh/" rel="tag">Oh my zsh</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git-git-flow/" rel="tag">git, git flow</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git-note/" rel="tag">git, note</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/homeassistant-python-N1-armbian-%E6%A0%91%E8%8E%93%E6%B4%BE/" rel="tag">homeassistant, python, N1, armbian, 树莓派</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mac-brew-node-ide/" rel="tag">mac brew node ide</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python-cmd-virtualenv-pip-requirements/" rel="tag">python, cmd, virtualenv, pip, requirements</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/react-server-render/" rel="tag">react-server-render</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/share-twitter-share-facebook-share/" rel="tag">share, twitter share, facebook share</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sublime/" rel="tag">sublime</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9A%8F%E7%AC%94/" rel="tag">随笔</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Oh-my-zsh/" style="font-size: 10px;">Oh my zsh</a> <a href="/tags/git-git-flow/" style="font-size: 10px;">git, git flow</a> <a href="/tags/git-note/" style="font-size: 10px;">git, note</a> <a href="/tags/homeassistant-python-N1-armbian-%E6%A0%91%E8%8E%93%E6%B4%BE/" style="font-size: 10px;">homeassistant, python, N1, armbian, 树莓派</a> <a href="/tags/mac-brew-node-ide/" style="font-size: 10px;">mac brew node ide</a> <a href="/tags/python-cmd-virtualenv-pip-requirements/" style="font-size: 10px;">python, cmd, virtualenv, pip, requirements</a> <a href="/tags/react-server-render/" style="font-size: 10px;">react-server-render</a> <a href="/tags/share-twitter-share-facebook-share/" style="font-size: 10px;">share, twitter share, facebook share</a> <a href="/tags/sublime/" style="font-size: 10px;">sublime</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 10px;">随笔</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archiv</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/07/">July 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">May 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">letzter Beitrag</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2019/07/01/homeassistant-install-guide/">homeassistant 安装指南</a>
+          </li>
+        
+          <li>
+            <a href="/2019/07/01/python-commands/">python常用命令行</a>
+          </li>
+        
+          <li>
+            <a href="/2018/03/31/sharehelper/">网页常用分享相关meta设置</a>
+          </li>
+        
+          <li>
+            <a href="/2017/08/25/react-%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%B8%B2%E6%9F%93%E5%90%8E%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%87%8D%E6%96%B0%E6%B8%B2%E6%9F%93%E5%8E%9F%E5%9B%A0%E5%88%86%E6%9E%90/">react 服务端渲染后客户端重新渲染原因分析</a>
+          </li>
+        
+          <li>
+            <a href="/2017/05/02/%E8%A7%A3%E5%86%B3%E6%9F%90%E4%BA%9B%E7%BD%91%E9%A1%B5%E6%97%A0%E6%B3%95%E5%A4%8D%E5%88%B6%E7%9A%84%E9%97%AE%E9%A2%98/">解决某些网页无法复制的问题</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2022 豆腐di青春<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
