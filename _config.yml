@@ -8,7 +8,7 @@ subtitle: "Front End Engineer"
 description: "Just do it"
 keywords: blog
 author: 豆腐di青春
-language: zh-Hans
+language: zh-CN
 timezone: ""
 
 # URL
@@ -90,14 +90,15 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
-exclude:
+# include:
+# exclude:
 ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
